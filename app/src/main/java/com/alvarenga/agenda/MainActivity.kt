@@ -11,6 +11,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val myToolbar = findViewById(R.id.toolbar) as Toolbar
         setSupportActionBar(myToolbar)
-
     }
 }
