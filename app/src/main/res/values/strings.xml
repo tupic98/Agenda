@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Agenda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1_text">Contactos</string>
+    <string name="tab2_text">Favoritos</string>
+    <string name="test">TOUT</string>
 </resources>

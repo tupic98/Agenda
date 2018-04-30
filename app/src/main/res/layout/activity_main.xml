@@ -14,13 +14,16 @@
         android:background="@color/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
         <com.mancj.materialsearchbar.MaterialSearchBar
+            android:layout_marginRight="14dp"
             app:mt_speechMode="false"
-            app:mt_hint="Custom hint"
+            app:mt_hint="Search"
+            app:mt_placeholder="Search"
             app:theme="@style/AppTheme.PopupOverlay"
             app:mt_maxSuggestionsCount="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/searchBar" />
+            android:id="@+id/searchBar"
+            android:layout_marginEnd="14dp" />
     </android.support.v7.widget.Toolbar>
 
     <android.support.design.widget.TabLayout
@@ -33,12 +36,12 @@
         app:tabMode="fixed">
 
         <android.support.design.widget.TabItem
-            android:text="Contacts"
+            android:text="@string/tab1_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/mainContacts"/>
         <android.support.design.widget.TabItem
-            android:text="Favorites"
+            android:text="@string/tab2_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/favContacts"/>
